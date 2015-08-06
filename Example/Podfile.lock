@@ -1,0 +1,14 @@
+PODS:
+  - UPPaySDK-QIAO (3.0.5)
+
+DEPENDENCIES:
+  - UPPaySDK-QIAO (from `../`)
+
+EXTERNAL SOURCES:
+  UPPaySDK-QIAO:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UPPaySDK-QIAO: 8bd924dcab6f37dafd6be754ea7c3c864758f912
+
+COCOAPODS: 0.38.2

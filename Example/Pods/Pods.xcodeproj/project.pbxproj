@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0946B5E558FBD29EBFB2584B62671B27 /* Pods-UPPaySDK-QIAO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9812415AC5C1A156711BF3BDB2BF2E /* Pods-UPPaySDK-QIAO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B5176EA6DEACE2C4376EACA4576CE3 /* Pods-UPPaySDK-QIAO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE769AB9D143ED1C5B47E581076BD2 /* Pods-UPPaySDK-QIAO_Tests-dummy.m */; };
+		BC2753971ED754F01F74F43EA1818492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52737B8ADB19464C9873F04CAED86F47 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E6DD16656BE67CD6BD517078595C9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D6F2319010D8398BA3DA5D21B4CC43;
+			remoteInfo = "UPPaySDK-QIAO-UPPaySDK-QIAO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BFAD6A83D8BDF46304081C5D70EE90 /* Pods-UPPaySDK-QIAO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPPaySDK-QIAO_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BEE769AB9D143ED1C5B47E581076BD2 /* Pods-UPPaySDK-QIAO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPPaySDK-QIAO_Tests-dummy.m"; sourceTree = "<group>"; };
+		1D9812415AC5C1A156711BF3BDB2BF2E /* Pods-UPPaySDK-QIAO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPPaySDK-QIAO_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2327565653F085BB4D2AAB64B832A9BF /* libUPPayPluginPro.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUPPayPluginPro.a; path = Pod/Classes/UPPayPlugin/libUPPayPluginPro.a; sourceTree = "<group>"; };
+		25DF662B62C20B5205710C7EBD171C3F /* Pods-UPPaySDK-QIAO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPPaySDK-QIAO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E62CDA92EF1875106C621F8FC80D9A4 /* Pods-UPPaySDK-QIAO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UPPaySDK-QIAO_Tests.modulemap"; sourceTree = "<group>"; };
+		396F6C7E8FDCB6F24F451D8AF3DF5F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B0C0D4583E4F68BF1189C4145F9232D /* Pods-UPPaySDK-QIAO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPPaySDK-QIAO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52737B8ADB19464C9873F04CAED86F47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7853ECBFD8DF8C9884B68E52E77C9558 /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		7F86BC6AA85A3367173821C2FB95F08B /* Pods-UPPaySDK-QIAO_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPPaySDK-QIAO_Tests-resources.sh"; sourceTree = "<group>"; };
+		8AEE4C1056208770DDBC878F612D9F75 /* Pods_UPPaySDK_QIAO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPPaySDK_QIAO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E2E7EEE87F78D36F8D99CC9A650E95 /* Pods-UPPaySDK-QIAO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPPaySDK-QIAO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B82F84D8EC9E27CE17B5665F1449202E /* Pods-UPPaySDK-QIAO_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UPPaySDK-QIAO_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9FEDF72BAB22A17FB2084E9FB2E3F2D /* UPPayPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
+		E8A43D388019B1056A833EA5AFBFF0BE /* UPPaySDK-QIAO.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UPPaySDK-QIAO.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746046AFD6302700A2D7707A8621B31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2753971ED754F01F74F43EA1818492 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5303C9C2B9EA80363A1D738D9C7016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120E4C79E6A7E6C7556DC4DD7AC8658F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5D68A7F021F2327B3B577F2F2E05A /* UPPaySDK-QIAO */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3604EE5E033FF4337CB02565B1992C7F /* Pods-UPPaySDK-QIAO_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				396F6C7E8FDCB6F24F451D8AF3DF5F31 /* Info.plist */,
+				2E62CDA92EF1875106C621F8FC80D9A4 /* Pods-UPPaySDK-QIAO_Tests.modulemap */,
+				4B0C0D4583E4F68BF1189C4145F9232D /* Pods-UPPaySDK-QIAO_Tests-acknowledgements.markdown */,
+				25DF662B62C20B5205710C7EBD171C3F /* Pods-UPPaySDK-QIAO_Tests-acknowledgements.plist */,
+				1BEE769AB9D143ED1C5B47E581076BD2 /* Pods-UPPaySDK-QIAO_Tests-dummy.m */,
+				B82F84D8EC9E27CE17B5665F1449202E /* Pods-UPPaySDK-QIAO_Tests-frameworks.sh */,
+				7F86BC6AA85A3367173821C2FB95F08B /* Pods-UPPaySDK-QIAO_Tests-resources.sh */,
+				1D9812415AC5C1A156711BF3BDB2BF2E /* Pods-UPPaySDK-QIAO_Tests-umbrella.h */,
+				B0E2E7EEE87F78D36F8D99CC9A650E95 /* Pods-UPPaySDK-QIAO_Tests.debug.xcconfig */,
+				03BFAD6A83D8BDF46304081C5D70EE90 /* Pods-UPPaySDK-QIAO_Tests.release.xcconfig */,
+			);
+			name = "Pods-UPPaySDK-QIAO_Tests";
+			path = "Target Support Files/Pods-UPPaySDK-QIAO_Tests";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52737B8ADB19464C9873F04CAED86F47 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				120E4C79E6A7E6C7556DC4DD7AC8658F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				7DF383FDC225DA1E118BD5540FDC53E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF383FDC225DA1E118BD5540FDC53E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3604EE5E033FF4337CB02565B1992C7F /* Pods-UPPaySDK-QIAO_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7F7842D111D55FF2791806CA7601AE3A /* UPPayPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C9FEDF72BAB22A17FB2084E9FB2E3F2D /* UPPayPlugin.h */,
+				7853ECBFD8DF8C9884B68E52E77C9558 /* UPPayPluginDelegate.h */,
+			);
+			path = UPPayPlugin;
+			sourceTree = "<group>";
+		};
+		8B0DD0D8BD3366FB900FF3648077B8AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2327565653F085BB4D2AAB64B832A9BF /* libUPPayPluginPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F62B1F7963E70BF72667EAEFDF36A9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F7842D111D55FF2791806CA7601AE3A /* UPPayPlugin */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B2D5D68A7F021F2327B3B577F2F2E05A /* UPPaySDK-QIAO */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DD0D8BD3366FB900FF3648077B8AA /* Frameworks */,
+				BD995734C5FF02ED2E53674F20F1B4BB /* Pod */,
+			);
+			name = "UPPaySDK-QIAO";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD995734C5FF02ED2E53674F20F1B4BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F62B1F7963E70BF72667EAEFDF36A9E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE4C1056208770DDBC878F612D9F75 /* Pods_UPPaySDK_QIAO_Tests.framework */,
+				E8A43D388019B1056A833EA5AFBFF0BE /* UPPaySDK-QIAO.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8986EDEACE164AF0ED47FC53225713F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0946B5E558FBD29EBFB2584B62671B27 /* Pods-UPPaySDK-QIAO_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A9556B1546E7C8074CBDEE2ABC20B84 /* Pods-UPPaySDK-QIAO_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE090E3FFFB1F43CA55F22884311877 /* Build configuration list for PBXNativeTarget "Pods-UPPaySDK-QIAO_Tests" */;
+			buildPhases = (
+				7709B63244FD89289F8AD447E216FD56 /* Sources */,
+				746046AFD6302700A2D7707A8621B31F /* Frameworks */,
+				8986EDEACE164AF0ED47FC53225713F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E501FAEB5E71E92915C2BF072C15B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-UPPaySDK-QIAO_Tests";
+			productName = "Pods-UPPaySDK-QIAO_Tests";
+			productReference = 8AEE4C1056208770DDBC878F612D9F75 /* Pods_UPPaySDK_QIAO_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1D6F2319010D8398BA3DA5D21B4CC43 /* UPPaySDK-QIAO-UPPaySDK-QIAO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F23F076951CF14A2876557A30570DC /* Build configuration list for PBXNativeTarget "UPPaySDK-QIAO-UPPaySDK-QIAO" */;
+			buildPhases = (
+				EA9E3210903E5966C2A1C35B54B8CC7E /* Sources */,
+				EF5303C9C2B9EA80363A1D738D9C7016 /* Frameworks */,
+				4A5747DA4502A0258BE0DA206B19E359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPPaySDK-QIAO-UPPaySDK-QIAO";
+			productName = "UPPaySDK-QIAO-UPPaySDK-QIAO";
+			productReference = E8A43D388019B1056A833EA5AFBFF0BE /* UPPaySDK-QIAO.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9556B1546E7C8074CBDEE2ABC20B84 /* Pods-UPPaySDK-QIAO_Tests */,
+				E1D6F2319010D8398BA3DA5D21B4CC43 /* UPPaySDK-QIAO-UPPaySDK-QIAO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5747DA4502A0258BE0DA206B19E359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7709B63244FD89289F8AD447E216FD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B5176EA6DEACE2C4376EACA4576CE3 /* Pods-UPPaySDK-QIAO_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9E3210903E5966C2A1C35B54B8CC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E501FAEB5E71E92915C2BF072C15B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UPPaySDK-QIAO-UPPaySDK-QIAO";
+			target = E1D6F2319010D8398BA3DA5D21B4CC43 /* UPPaySDK-QIAO-UPPaySDK-QIAO */;
+			targetProxy = 6E6DD16656BE67CD6BD517078595C9B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1E1BCF6B6DE59D0ED298CAB89A17C41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "UPPaySDK-QIAO";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8B0DA3A4A665F22B1CC71AAB5D3AD242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E2E7EEE87F78D36F8D99CC9A650E95 /* Pods-UPPaySDK-QIAO_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPPaySDK-QIAO_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UPPaySDK-QIAO_Tests/Pods-UPPaySDK-QIAO_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPPaySDK_QIAO_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF2CA327F27D946418F96873B4B433E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "UPPaySDK-QIAO";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E3ECCE56F61CE9FCDBD419722D12F263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BFAD6A83D8BDF46304081C5D70EE90 /* Pods-UPPaySDK-QIAO_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UPPaySDK-QIAO_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UPPaySDK-QIAO_Tests/Pods-UPPaySDK-QIAO_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UPPaySDK_QIAO_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FE090E3FFFB1F43CA55F22884311877 /* Build configuration list for PBXNativeTarget "Pods-UPPaySDK-QIAO_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DA3A4A665F22B1CC71AAB5D3AD242 /* Debug */,
+				E3ECCE56F61CE9FCDBD419722D12F263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F23F076951CF14A2876557A30570DC /* Build configuration list for PBXNativeTarget "UPPaySDK-QIAO-UPPaySDK-QIAO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1BCF6B6DE59D0ED298CAB89A17C41D /* Debug */,
+				AF2CA327F27D946418F96873B4B433E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
